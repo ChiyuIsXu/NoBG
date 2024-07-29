@@ -2,6 +2,9 @@
 	"folders": [
 		{
 			"path": ".."
+		},
+		{
+			"path": "../notebook/Thresholding"
 		}
 	],
 	"settings": {}

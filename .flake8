@@ -1,0 +1,8 @@
+[flake8]
+; F401: imported but unused
+; F821: undefined name name
+; E501: line too long (82 > 79 characters)
+; E821: undefined name name
+; W292: no newline at end of file
+ignore = F401, F821, E501, E821, W292
+; max-line-length = 120
