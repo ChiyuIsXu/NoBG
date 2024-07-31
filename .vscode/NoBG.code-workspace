@@ -1,10 +1,27 @@
 {
 	"folders": [
 		{
+			"name": "docs",
+			"path": "../docs"
+		},
+		{
+			"name": "utils",
+			"path": "../utils"
+		},
+		{
+			"name": "NoBG",
 			"path": ".."
 		},
 		{
+			"name": "Filtering",
+			"path": "../notebook/Filtering"
+		},
+		{
+			"name": "Thresholding",
 			"path": "../notebook/Thresholding"
+		},
+		{
+			"path": "../notebook/Noise"
 		}
 	],
 	"settings": {}
