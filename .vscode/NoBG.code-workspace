@@ -22,6 +22,9 @@
 		},
 		{
 			"path": "../notebook/Noise"
+		},
+		{
+			"path": "../notebook/Visualization"
 		}
 	],
 	"settings": {}

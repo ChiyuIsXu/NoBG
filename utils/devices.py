@@ -1,13 +1,14 @@
 # -*- coding: utf-8 -*-
-""" Devices for PyTorch: select_device """
+""" Devices for PyTorch: get_device_info """
 import sys
 import logging
 import torch
 
-__all__ = ["select_device"]
+__all__ = ["get_device_info"]
 
 
-def select_device(allow_cpu=True):
+def get_device_info(allow_cpu=True):
+
     if not allow_cpu:
         if not torch.cuda.is_available():
             logging.error("CUDA is not available. Exiting program.")
@@ -34,5 +35,5 @@ def select_device(allow_cpu=True):
 
 
 if __name__ == "__main__":
-    available_device = select_device(allow_cpu=False)
-    print(f"Selected device: {available_device}")
+    device = get_device_info(allow_cpu=False)
+    print(f"Selected device: {device}")
