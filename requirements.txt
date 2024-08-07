@@ -1,4 +1,8 @@
+colorlog=6.8.2
+sympy=1.13.0
 opencv-python=4.10.0
 torchinfo= 1.8.0 
 tensorboardx=2.6.2.2
 wandb=0.17.5
+grad-cam=1.5.2
+flashtorch=0.1.3

@@ -11,20 +11,6 @@
 		{
 			"name": "NoBG",
 			"path": ".."
-		},
-		{
-			"name": "Filtering",
-			"path": "../notebook/Filtering"
-		},
-		{
-			"name": "Thresholding",
-			"path": "../notebook/Thresholding"
-		},
-		{
-			"path": "../notebook/Noise"
-		},
-		{
-			"path": "../notebook/Visualization"
 		}
 	],
 	"settings": {}
