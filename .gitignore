@@ -17,3 +17,9 @@ datasets/*
 *.rar
 *.gz
 *.7z
+
+# Logs
+notebook/
+
+# Configuration files
+.flake8
