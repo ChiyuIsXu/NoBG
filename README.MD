@@ -39,3 +39,22 @@ pip install -r requirements.txt
 NoBG
 │  README.MD
 │  requirements.txt
+│
+├─data
+│  ├─train
+│  │  ├─images
+│  │  └─masks
+│  └─val
+│      ├─images
+│      └─masks
+│
+├─model
+│      model.py
+│
+├─notebook
+│      train.ipynb
+│
+└─utils
+    ├─dataset.py
+    ├─transforms.py
+    └─utils.py
